@@ -1,0 +1,95 @@
+body {
+	font-family: "Roboto";
+	background-image: url("./../img/bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	margin: 0;
+	width: 100%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	background: steelblue;
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+input {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #eee;
+	border: 3px solid rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	padding: 13px 20px;
+	color: steelblue;
+	font-size: 18px;
+}
+
+input:focus {
+	border: 3px solid steelblue;
+	background-color: #fff;
+	outline: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #444;
+	background-color: white;
+	cursor: pointer;
+}
+
+li:nth-child(2n) {
+	background-color: #eee;
+}
+
+span {
+	margin-right: 20px;
+	background-color: tomato;
+	color: white;
+	width: 0px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	display: inline-block;
+	transition: 0.2s;
+	opacity: 0;
+}
+
+li:hover span {
+	opacity: 1;
+	width: 40px;
+}
+
+#wrapper {
+	width: 400px;
+	margin: 100px auto 20px auto;
+	font-size: 20px;
+	box-shadow: 3px 3px 19px -1px rgba(92, 90, 92, 0.46);
+	-webkit-box-shadow: 3px 3px 19px -1px rgba(92, 90, 92, 0.46);
+	-moz-box-shadow: 3px 3px 19px -1px rgba(92, 90, 92, 0.46);
+}
+
+.fa-pen {
+	float: right;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
